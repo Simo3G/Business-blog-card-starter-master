@@ -1,0 +1,26 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {height: 100vh;width: 100vw; background-color: #F2F5F9;}
+
+h1 {font-family: poppins; font-weight: 500; letter-spacing: -1px; font-size: 1.5rem; color: #111729;}
+
+p {font-family: lato; font-size: 1rem; color: #4A5567;}
+.nome {color: #111729; font-weight: bold;}
+
+.images {position: relative; overflow: hidden;}
+
+#onda {position: absolute; bottom: 0; left: 0; width: 100%;}
+#caffe {width: 100%;}
+#avatar {width: 40px; border-radius: 50%; border: 4px solid #F2F5F9; position: absolute; left: 0;}
+
+.card-container {display: flex; justify-content: center;align-items: center; height: 100vh;}
+
+.card{position: relative; width: 400px; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); background-color: #FFFFFF;}
+
+.card-text {padding: 0 22px 14px 22px;}
+
+.autore {position: relative; padding: 20px; border-top: 1px solid #F2F5F9;}
+
+.autore-text {margin-left: 30px;}
+
+.description {padding: 20px 0 20px 0; line-height: 1.5;}
